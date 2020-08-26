@@ -1,7 +1,7 @@
 # Template_Engine
 
 ## Demo
-![READ_ME](image/nodeapp.png)
+![READ_ME](images/nodeapp.png)
 ## Table of contents
 
 - [General info](#general-info)
