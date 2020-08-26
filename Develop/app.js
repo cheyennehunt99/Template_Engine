@@ -65,7 +65,12 @@ const teamMembers = [];
               createIntern();
           }
           else {
-              render(teamMembers);
+            // console.log (render(teamMembers))
+            // Create the output directory if the output path doesn't exist
+    if (!fs.existsSync(OUTPUT_DIR)) {
+        fs.mkdirSync(OUTPUT_DIR)
+    }
+            fs.writeFileSync(outputPath,render(teamMembers), "utf-8")
           }
   
       })
@@ -129,6 +134,7 @@ const teamMembers = [];
           const intern = new Intern(answers.name, parseInt(answers.id), answers.email, answers.school);
           teamMembers.push(intern);
           addMember();
+          
       });
   
   } 
