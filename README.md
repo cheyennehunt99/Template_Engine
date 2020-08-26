@@ -1,7 +1,7 @@
 # Template_Engine
 
 ## Demo
-![READ_ME](image/terminal.png)
+![READ_ME](image/nodepp.png)
 ## Table of contents
 
 - [General info](#general-info)
@@ -34,7 +34,7 @@ Next you want to npm install
 After you npm install you want to make sure you are in the correct directory and run `node app.js`
 There you will be asked a series of questions to build your team and a user can add as many engineers and interns as they want. 
 When the user is done building their team an html file will be gnerated in the output file called "team.html"
-The user will redirect into the team.html file and can open thr results with the browser using the command lines. Alt+B (Windows)
+The user will redirect into the team.html file and can open thr results with the browser. 
 
 ## Expectations
 ![READ_ME](images/TeamOutput.png)
